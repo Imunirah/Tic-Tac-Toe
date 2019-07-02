@@ -1,70 +1,69 @@
+* {
+    box-sizing: border-box;
+}
 
-
- body { 
+body {
+    text-align: center;
+    margin: 0;
     
-    background-image: url("Tic-Tac-Toe.jpg");
-    
-  
+}
 
+.game {
+    color: #f1f1f1;
+    padding: auto ;
+    padding: 70px auto ;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+ } 
+
+
+.bg {
+    /* background-image: url("bg.gif"); */
+    background-size: cover;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
     }
 
-    h1 {
-
-        color: black;
-        -webkit-text-fill-color: white; 
-         -webkit-text-stroke-width: 5px;
-         -webkit-text-stroke-color: rgb(36, 80, 80);
-         font-size: 100px;
-         text-align: center; 
-         margin: 150px auto;
-       
-      }
-    
-
-    
-.game {
-
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    display: flex;
+h1 {
+    color: black;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: rgb(36, 80, 80);
+    font-size: 100px;
+    text-align: center; 
+    margin: 0 auto 150px auto;
+   
 }
-x  
-
-  
- .row {
-
-    display: flex;
-    width: 150%;
-    height: 150px;
-    margin:0 auto;
-        }
     
 .square{
-  display: flex; 
-  width: 200px;
-  height: 200px;
-  background: darkgrey;
-  margin: 4px;
-  font-size: 100px;
-  color: pink;
-  cursor: pointer;
-  float: left;
-  text-align: center
-        
-    }
-
+    width: 200px;
+    height: 200px;
+    background: rgb(85, 139, 175);
+    margin: 4px;
+    font-size: 100px;
+    color: rgb(131, 185, 160) ;
+    cursor: pointer;
+    text-align: center
+}
 
 button {
-justify-content: center;
-margin-left:1300px;
-width: 200px;
-height:100px;
--webkit-text-stroke-width: 3px;
--webkit-text-fill-color: white; 
--webkit-text-stroke-color: rgb(36, 80, 80);
-font-size: 10px;
-
-
-
+    width: 300px;
+    font-size: 30px;
+    padding: 10px;
+    margin :10px auto;
+    border: none;
+    background:rgb(111, 192, 111) ;
+    display: fixed;
+    border-radius: 12px;
 }

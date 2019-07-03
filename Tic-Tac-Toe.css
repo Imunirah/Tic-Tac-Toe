@@ -7,22 +7,33 @@ body {
     margin: 0;
     
 }
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 300px; 
+
+}
 
 .game {
-    color: #f1f1f1;
-    padding: auto ;
-    padding: 70px auto ;
-    margin: 20px;
+     color: #f1f1f1;
+    margin: 20px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
-    width: 100%;
+     height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    /* width: 100%; */
+    font-size: 18px;
+    /* z-index: -1; */
  } 
 
 
-.bg {
-    /* background-image: url("bg.gif"); */
+.bg {  
     background-size: cover;
     right: 0;
     bottom: 0;
@@ -42,9 +53,17 @@ h1 {
     -webkit-text-stroke-color: rgb(36, 80, 80);
     font-size: 100px;
     text-align: center; 
-    margin: 0 auto 150px auto;
+    margin: 20px 80px;
+    letter-spacing: 15px;
+    line-height: 70px;
+    padding: 40px;
    
+    
 }
+
+#reload {
+}
+
     
 .square{
     width: 200px;
@@ -54,16 +73,19 @@ h1 {
     font-size: 100px;
     color: rgb(131, 185, 160) ;
     cursor: pointer;
-    text-align: center
+    text-align: center; 
+   
 }
 
-button {
+#reload {
     width: 300px;
     font-size: 30px;
     padding: 10px;
-    margin :10px auto;
-    border: none;
+    margin :80px auto;
     background:rgb(111, 192, 111) ;
     display: fixed;
     border-radius: 12px;
+    z-index: 10;
+
+   
 }

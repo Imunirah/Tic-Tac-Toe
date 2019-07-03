@@ -27,9 +27,8 @@ body {
     position: absolute;
     left: 50%;
     top: 40%;
-    /* width: 100%; */
     font-size: 18px;
-    /* z-index: -1; */
+   
  } 
 
 
@@ -61,17 +60,14 @@ h1 {
     
 }
 
-#reload {
-}
 
-    
 .square{
     width: 200px;
     height: 200px;
     background: rgb(85, 139, 175);
     margin: 4px;
-    font-size: 100px;
-    color: rgb(131, 185, 160) ;
+    font-size: 150px;
+    color: rgb(111, 161, 115) ;
     cursor: pointer;
     text-align: center; 
    
